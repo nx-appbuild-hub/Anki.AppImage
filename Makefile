@@ -11,7 +11,7 @@ all:
 	rm -rf AppDir/opt
 
 	mkdir --parents AppDir/opt/application
-	cp -r anki-2.1.22-linux-amd64/bin/* AppDir/opt/application
+	cp -r anki-*-linux-amd64/bin/* AppDir/opt/application
 
 	chmod +x AppDir/AppRun
 
@@ -21,4 +21,4 @@ all:
 
 	rm -f $(DESTINATION)
 	rm -rf AppDir/opt
-	rm -rf anki-2.1.22-linux-amd64
+	rm -rf anki-*-linux-amd64
